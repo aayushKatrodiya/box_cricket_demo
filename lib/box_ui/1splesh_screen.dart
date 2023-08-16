@@ -26,7 +26,7 @@ class _SpleshScreenState extends State<SpleshScreen> {
                 Container(
                   height: 300,
                   width: 200,
-                  color: Colors.red,
+                  color: Colors.orange,
                 )
               ],
             ),
