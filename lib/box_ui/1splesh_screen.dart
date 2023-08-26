@@ -1,4 +1,5 @@
 // ignore_for_file: file_names
+import 'package:box_cricket_demo/box_ui_controller/splash_screen_controller.dart';
 import 'package:flutter/material.dart';
 
 class SpleshScreen extends StatefulWidget {
@@ -14,10 +15,10 @@ class _SpleshScreenState extends State<SpleshScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          const Image(
+          Image(
             height: 852,
             fit: BoxFit.fill,
-            image: AssetImage("assets/images/splash_screen_logo2.jpeg"),
+            image: AssetImage(SplashScreebController.bgImage),
           ),
           Center(
             child: Column(
