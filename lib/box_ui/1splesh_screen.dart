@@ -32,7 +32,9 @@ class _SpleshScreenState extends State<SpleshScreen> {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Image.asset("assets/images/splash screen logo.png"),
+                        Image.asset(
+                          SplashScreebController.logoImage,
+                        ),
                         const SizedBox(height: 20),
                         const Text(
                           "Hello Cricketers",
