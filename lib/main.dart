@@ -1,4 +1,4 @@
-import 'package:box_cricket_demo/box_ui/1splesh_screen.dart';
+import 'package:box_cricket_demo/box_ui/payment_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SpleshScreen(),
+      home: const PaymentScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
