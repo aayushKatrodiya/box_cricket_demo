@@ -21,52 +21,55 @@ class _SpleshScreenState extends State<SpleshScreen> {
             image: AssetImage(SplashScreebController.bgImage),
           ),
           Center(
-            child: Column(mainAxisSize: MainAxisSize.min, children: [
-              SizedBox(
-                height: 300,
-                width: 220,
-                // color: Colors.orange,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Image.asset(
-                        SplashScreebController.logoImage,
-                      ),
-                      const SizedBox(height: 20),
-                      const Text(
-                        "Hello Cricketers",
-                        style: TextStyle(
-                          shadows: [
-                            Shadow(
-                              blurRadius: 1000,
-                              color: Colors.grey,
-                              offset: Offset(0.1, 2),
-                            ),
-                          ],
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                SizedBox(
+                  height: 300,
+                  width: 220,
+                  // color: Colors.orange,
+                  child: Center(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Image.asset(
+                          SplashScreebController.logoImage,
                         ),
-                      ),
-                    ],
+                        const SizedBox(height: 20),
+                        const Text(
+                          "Hello Cricketers",
+                          style: TextStyle(
+                            shadows: [
+                              Shadow(
+                                blurRadius: 1000,
+                                color: Colors.grey,
+                                offset: Offset(0.1, 2),
+                              ),
+                            ],
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
-              ),
-              TextButton(
-                onPressed: () {
-                  setState(() {});
-                },
-                child: const Text(
-                  "Service",
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 19, 142, 24),
-                    fontSize: 30,
+                TextButton(
+                  onPressed: () {
+                    setState(() {});
+                  },
+                  child: const Text(
+                    "Service",
+                    style: TextStyle(
+                      color: Color.fromARGB(255, 149, 167, 150),
+                      fontSize: 30,
+                    ),
                   ),
                 ),
-              ),
-            ]),
-          )
+              ],
+            ),
+          ),
         ],
       ),
     );
