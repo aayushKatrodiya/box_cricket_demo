@@ -1,4 +1,5 @@
 import 'package:box_cricket_demo/box_ui_controller/payment_screen_controller.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class PaymentScreen extends StatefulWidget {
@@ -49,7 +50,8 @@ class _PaymentScreenState extends State<PaymentScreen> {
                 setState(() {});
               },
               child: PaymentScreenController.commonListTime(
-                leading: Icons.credit_card,
+                // leading: Icons.credit_card,
+                leading: CupertinoIcons.add,
                 title: "Card",
               ),
             ),
