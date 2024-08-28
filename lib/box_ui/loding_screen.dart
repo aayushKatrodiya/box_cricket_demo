@@ -13,13 +13,17 @@ class _LodingScreenState extends State<LodingScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 20), () {
-      Navigator.pushReplacement(
+    Timer(
+      const Duration(seconds: 20),
+      () {
+        Navigator.pushReplacement(
           context,
           MaterialPageRoute(
             builder: (context) => const SpleshScreen(),
-          ));
-    });
+          ),
+        );
+      },
+    );
   }
 
   @override
